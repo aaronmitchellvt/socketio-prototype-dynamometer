@@ -1,15 +1,73 @@
-# socketio-prototype-dynamometer
+# Socket.io Prototype Dynamometer
 
-##Installation
-git clone https://github.com/aaronmitchellvt/socketio-prototype-dynamometer.git
-cd client
-npm install
-npm run dev
-In a seperate terminal
-cd server
-create a venv
-activate your venv
-pip install -r requirements.txt
-python app.py
+This repository contains the code for a Socket.io prototype dynamometer.
 
-Visit http://localhost:5173/
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+
+## Installation
+
+Follow the steps below to install and run the application:
+
+1. **Clone the repository**
+
+    ```bash
+    git clone https://github.com/aaronmitchellvt/socketio-prototype-dynamometer.git
+    ```
+
+2. **Navigate to the project directory**
+
+    ```bash
+    cd socketio-prototype-dynamometer/
+    ```
+
+3. **Client Setup**
+
+    - Navigate to the client directory:
+
+        ```bash
+        cd client
+        ```
+
+    - Install the required packages:
+
+        ```bash
+        npm install
+        ```
+
+    - Run the development server:
+
+        ```bash
+        npm run dev
+        ```
+
+4. **Server Setup (In a separate terminal)**
+
+    - Navigate to the server directory:
+
+        ```bash
+        cd server
+        ```
+
+    - Activate your virtual environment:
+
+        ```bash
+        # (For Windows)
+        source daimler_venv\Scripts\activate
+
+    - Install the required Python packages:
+
+        ```bash
+        pip install -r requirements.txt
+        ```
+
+    - Run the application:
+
+        ```bash
+        python app.py
+        ```
+
+## Usage
+
+Once everything is set up, visit [http://localhost:5173/](http://localhost:5173/) to access the application.
