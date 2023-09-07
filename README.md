@@ -3,9 +3,11 @@
 This repository contains the code for a Socket.io prototype dynamometer.
 
 ## Table of Contents
-- [Demo and Code Walkthrough](#video-tutorials)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Socket.io Prototype Dynamometer](#socketio-prototype-dynamometer)
+  - [Table of Contents](#table-of-contents)
+  - [Demo and Code Walkthrough](#demo-and-code-walkthrough)
+  - [Installation](#installation)
+  - [Usage](#usage)
 
 ## Demo and Code Walkthrough
 
@@ -58,10 +60,11 @@ Follow the steps below to install and run the application:
         cd server
         ```
 
-    - Activate your virtual environment:
+    - Create your virtual environment:
 
         ```bash
         # (For Windows)
+        python -m venv daimler_venv
         source daimler_venv\Scripts\activate
 
     - Install the required Python packages:
