@@ -3,8 +3,16 @@
 This repository contains the code for a Socket.io prototype dynamometer.
 
 ## Table of Contents
+- [Demo and Code Walkthrough](#video-tutorials)
 - [Installation](#installation)
 - [Usage](#usage)
+
+## Demo and Code Walkthrough
+
+For more details on how to use the application, check out these video tutorials:
+
+- [Video Tutorial 1](https://www.youtube.com/watch?v=LYcU2JPvjSQ)
+- [Video Tutorial 2](https://www.youtube.com/watch?v=Le-e9rGT6No)
 
 ## Installation
 
