@@ -27,4 +27,4 @@ def handle_start_event(data):
     socketio.emit('stop', {'message': f'{vehicle_man} {vehicle_model} Results'})
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, port=5001)
+    socketio.run(app, debug=True, port=5000)
